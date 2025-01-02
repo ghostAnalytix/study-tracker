@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/study-tracker">
       <div className="min-h-screen bg-white">
         <Header />
         <Routes>
